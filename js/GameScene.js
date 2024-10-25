@@ -12,13 +12,13 @@
 
             preload() {
                 // Carga la imagen de fondo
-                this.load.image('backgroundQuestion', '../img/fondo_preguntas.jpg');
+                this.load.image('backgroundQuestion', "/img/fondo_preguntas.jpg');
                 // Carga personaje 1
-                this.load.image('personaje1', '../img/personaje1.png');
+                this.load.image('personaje1', 'img/personaje1.png');
                 // Cargar personaje 2
                 //this.load.image('personaje2', './img/personaje2.png');
                 // Cargar Dragon
-                this.load.image('dragon', '../img/dragon.png');
+                this.load.image('dragon', 'img/dragon.png');
             }
 
             create() {
